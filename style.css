@@ -1,0 +1,114 @@
+* {
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  
+}
+
+html {
+  font-family: sans-serif;
+  color: black;
+  font-size: 14px;
+  text-align: center;
+}
+
+body{
+    margin: 20px 0;
+}
+
+.item {
+  /*height: 30px;*/
+  min-height: 30px;
+  width: 30px;
+  border: 1px solid #e8e4e6;
+  background-color: #abd1c6;
+  padding: 10px;
+}
+
+.container {
+  margin: 10px 0;
+  background: #e8e4e6;
+  height: 150px;
+  flex-wrap: wrap;
+}
+
+.flex{
+  display: flex;
+  /*height: 100px;*/
+  flex-direction: column;
+}
+
+.infl {
+  display: inline-flex;
+}
+
+.start {
+  /*justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;*/
+  flex-direction: column;
+}
+
+.end {
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-content: flex-end;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.around {
+  justify-content: space-around;
+  align-items: baseline;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+.between {
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: space-between;
+}
+
+.side {
+  /*flex-grow: 1;
+  flex-shrink: 2;
+  flex-basis: 80px;*/
+  flex: 1, 2, 80px;
+}
+
+.middle {
+  /*flex-grow: 2;
+  flex-shrink: 1;
+  flex-basis: 40px;*/
+  flex: 2, 1, 40px;
+}
+
+
+/* Don't Mess With This Stuff */
+
+
+h2 {
+  font-size: 18px;
+  margin: 10px;
+}
+
+.big {
+  font-size: 30px;
+}
+
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
+.inbl {
+  display: inline-block;
+}
